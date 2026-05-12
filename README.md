@@ -1,4 +1,3 @@
-# Recruiter-Hiring-Hub
 # Christopher Hejduk — DevOps Engineer
 
 ![DevOps](https://img.shields.io/badge/Role-DevOps%20Engineer-0A66C2)
@@ -18,7 +17,7 @@
 
 ## Projects
 
-### 01 — [Terraform AWS EC2 Infrastructure](https://github.com/YOUR_USERNAME/terraform-aws-ec2-infra)
+### 01 — [Terraform AWS EC2 Infrastructure](https://github.com/PowershellWarrior/terraform-aws-ec2-infra)
 ![Terraform](https://img.shields.io/badge/Terraform-1.x-7B42BC?logo=terraform)
 ![AWS](https://img.shields.io/badge/AWS-Free%20Tier-FF9900?logo=amazonaws)
 
@@ -41,9 +40,9 @@ security group, and EC2 instance — using Terraform as Infrastructure as Code.
 
 | | |
 |---|---|
-| GitHub | [github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME) |
-| LinkedIn | [linkedin.com/in/YOUR_LINKEDIN](https://linkedin.com/in/YOUR_LINKEDIN) |
-| Email | your.email@gmail.com |
+| GitHub | [github.com/PowershellWarrior](https://github.com/PowershellWarrior) |
+| LinkedIn | [linkedin.com/in/chejduk](https://www.linkedin.com/in/chejduk/) |
+| Email | chejduk12.email@gmail.com |
 
 ---
 *Actively maintained — new projects added regularly.*
