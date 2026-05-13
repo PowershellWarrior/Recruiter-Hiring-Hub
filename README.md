@@ -3,25 +3,32 @@
 ![DevOps](https://img.shields.io/badge/Role-DevOps%20Engineer-0A66C2)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?logo=amazonaws)
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?logo=terraform)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions)
 ![Status](https://img.shields.io/badge/Portfolio-Active-success)
 
-> Cloud infrastructure engineer focused on AWS, Terraform, and security-first design.
+> Cloud infrastructure engineer focused on AWS, Terraform, Docker, 
+> and security-first design.
 
 ---
 
 ## Skills
 
-`Terraform` `AWS` `EC2` `VPC` `IAM` `Security Groups` `Linux` `Git` `PowerShell` `SSH`
+`Terraform` `AWS` `EC2` `VPC` `IAM` `Security Groups` `Docker` `CI/CD`
+`GitHub Actions` `Python` `Flask` `Linux` `Git` `PowerShell` `SSH`
 
 ---
 
 ## Projects
 
+---
+
 ### 01 — [Terraform AWS EC2 Infrastructure](https://github.com/PowershellWarrior/terraform-aws-ec2-infra)
+
 ![Terraform](https://img.shields.io/badge/Terraform-1.x-7B42BC?logo=terraform)
 ![AWS](https://img.shields.io/badge/AWS-Free%20Tier-FF9900?logo=amazonaws)
 
-Provisions a complete AWS environment — VPC, subnet, Internet Gateway, 
+Provisions a complete AWS environment — VPC, subnet, Internet Gateway,
 security group, and EC2 instance — using Terraform as Infrastructure as Code.
 
 **Highlights:**
@@ -30,9 +37,23 @@ security group, and EC2 instance — using Terraform as Infrastructure as Code.
 - Dynamic AMI lookup — no hardcoded image IDs
 - Fully parameterized — `main.tf` never edited directly
 
-**Resume bullet:**
-> *Designed and deployed AWS cloud infrastructure using Terraform — provisioning 
-> EC2, VPC, and security groups as reusable IaC, documented in a public GitHub repository.*
+---
+
+### 02 — [Flask Docker CI/CD Pipeline](https://github.com/PowershellWarrior/flask-docker-cicd)
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions)
+
+Containerizes a Python Flask application using Docker and automates the
+build and push process to Docker Hub via a GitHub Actions CI/CD pipeline
+on every commit to main — zero manual steps.
+
+**Highlights:**
+- GitHub Actions pipeline triggers automatically on every push to main
+- Docker image tagged with both `latest` and unique SHA per commit
+- Credentials managed via GitHub Secrets — never hardcoded in pipeline
+- `python:3.12-slim` base image — minimal attack surface and image size
 
 ---
 
@@ -45,4 +66,5 @@ security group, and EC2 instance — using Terraform as Infrastructure as Code.
 | Email | chejduk12.email@gmail.com |
 
 ---
+
 *Actively maintained — new projects added regularly.*
